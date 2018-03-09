@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.Support</RootNamespace>
     <AssemblyName>Sitecore.Support.11146.11594</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -41,7 +41,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
       <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.Abstractions.8.2.6\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -50,15 +50,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Common">
-      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Common.1.6.0\lib\Sitecore.XA.Foundation.Common.dll</HintPath>
+      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Common.1.5.0\lib\Sitecore.XA.Foundation.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XA.Foundation.Multisite, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Multisite.1.6.0\lib\Sitecore.XA.Foundation.Multisite.dll</HintPath>
+    <Reference Include="Sitecore.XA.Foundation.Multisite">
+      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Multisite.1.5.0\lib\Sitecore.XA.Foundation.Multisite.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XA.Foundation.SitecoreExtensions, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.SitecoreExtensions.1.6.0\lib\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
+    <Reference Include="Sitecore.XA.Foundation.SitecoreExtensions">
+      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.SitecoreExtensions.1.5.0\lib\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
